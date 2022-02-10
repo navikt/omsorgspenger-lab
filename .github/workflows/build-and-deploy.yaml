@@ -1,4 +1,5 @@
 name: Bygg og deploy
+concurrency: deploy
 on:
   push:
     branches:

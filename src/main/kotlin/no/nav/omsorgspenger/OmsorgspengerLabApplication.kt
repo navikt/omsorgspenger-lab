@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class OmsorgspengerLabApplication
 
 fun main(args: Array<String>) {
-	runApplication<OmsorgspengerLabApplication>(*args)
+    runApplication<OmsorgspengerLabApplication>(*args)
 }

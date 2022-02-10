@@ -1,0 +1,20 @@
+server.port: 8080
+
+spring:
+  application:
+    name: omsorgspenger-lab
+  jackson:
+    serialization:
+      indent_output: true
+
+springdoc:
+  paths-to-match: /
+  packages-to-scan: no.nav.omsorgspenger
+management:
+  endpoint:
+    health:
+      show-details: ALWAYS
+  endpoints:
+    web:
+      exposure:
+        include: health,info
