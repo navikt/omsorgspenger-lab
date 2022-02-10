@@ -1,4 +1,4 @@
-package no.nav.omsorgspenger.omsorgspengerlab
+package no.nav.omsorgspenger
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
