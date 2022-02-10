@@ -16,9 +16,9 @@ jobs:
           distribution: temurin
           cache: gradle
 
-      - name: Kjør tester & bygg JAR
+      - name: Bygg jar
         run: |
-          ./gradlew test shadowjar
+          ./gradlew clean build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
